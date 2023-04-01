@@ -1,0 +1,86 @@
+body {
+background: #968E88; 
+margin: 0;
+text-align: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    padding: 50px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 700px;
+    background-image: url(background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+    .home-score{
+        border: 3px solid gray;
+        border-radius: 15px;
+        background:#772602;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+        
+        .home-table{
+            font-size: 70px;
+            border: 3px solid gray;
+            border-radius: 10px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            color: white;
+            width: 150px;
+            height: 150px;
+        }
+    .guest-score{
+        border: 3px solid gray;
+        border-radius: 15px;
+        background:#772602;
+        color:white;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+    }
+   
+    .guest-table{
+        font-size: 70px;
+        border: 3px solid gray;
+        border-radius: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        width: 150px;
+        height: 150px;
+    }
+    .btn-section{
+        font-weight: 800;
+        background: #772602;
+        margin-top: 40px;
+        padding: 5px 10px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+        #btn{
+        color: rgb(196, 183, 183);
+        background:#772602;
+        border-radius: 10px;
+        margin-left: 5px;
+        border: 2px solid gray;
+        }
+    
